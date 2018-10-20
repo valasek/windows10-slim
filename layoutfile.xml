@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutModificationTemplate
+    xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout"
+    xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout"
+    xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
+    Version="1">
+   <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+      <defaultlayout:TaskbarLayout>
+        <taskbar:TaskbarPinList>
+          <taskbar:UWA AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge" />
+          <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk" />
+          <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Accessories\Internet Explorer.lnk" />
+          <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"/>
+        </taskbar:TaskbarPinList>
+      </defaultlayout:TaskbarLayout>
+    </CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
